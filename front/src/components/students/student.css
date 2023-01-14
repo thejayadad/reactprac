@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
-body{
+h2, table{
     font-family: monospace;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+
 }

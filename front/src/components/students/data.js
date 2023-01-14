@@ -9,7 +9,7 @@ const students = [
     },
     {
         name: "Jada",
-        activities: ["TCheer", "Dance Club"],
+        activities: ["Cheer", "Chess Club"],
         gradeRange: {
             highGpa: 3.3,
             lowGpa: 2.9
@@ -21,6 +21,14 @@ const students = [
         gradeRange: {
             highGpa: 3.1,
             lowGpa: 2.89
+        }
+    },
+    {
+        name: "Jack",
+        activities: ["Football", "English Club"],
+        gradeRange: {
+            highGpa: 3.4,
+            lowGpa: 2.92
         }
     },
 ]
