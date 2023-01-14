@@ -14,7 +14,7 @@ return (
         <h2>How to Display Local Time</h2>
         <p>{time}</p>
         <button onClick={currentTime}>Current Time</button>
-    </div>
+     </div>
 )
 }
 
