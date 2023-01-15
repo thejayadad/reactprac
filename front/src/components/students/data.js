@@ -20,7 +20,7 @@ const students = [
         activities: ["Basketball", "Science Club"],
         gradeRange: {
             highGpa: 3.1,
-            lowGpa: 2.89
+            lowGpa: 2.8
         }
     },
     {
@@ -28,7 +28,7 @@ const students = [
         activities: ["Football", "English Club"],
         gradeRange: {
             highGpa: 3.4,
-            lowGpa: 2.92
+            lowGpa: 2.9
         }
     },
 ]

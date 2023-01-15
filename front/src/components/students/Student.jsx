@@ -3,13 +3,8 @@ import students from './data';
 import "../Students/student.css"
 
 function Student(){
-const [Jazz, Jada, Jace, Jack ] = students;
-
-const {gradeRange: {highGpa: jazzhighGpa, lowGpa: jazzLowGpa}} = Jazz
-const {gradeRange: {highGpa: jadahighGpa, lowGpa: jadaLowGpa}} = Jada
-const {gradeRange: {highGpa: jacehighGpa, lowGpa: jaceLowGpa}} = Jace
-const {gradeRange: {highGpa: jackhighGpa, lowGpa: jackLowGpa}} = Jack
-
+    const [Jazz] = students;
+    const { gradeRange: {highGpa: jazzHighGpa, lowGpa: JazzLowGpa}} = Jazz
     return (
         <div className='container'>
             <h2>Object Destructing</h2>
@@ -22,25 +17,10 @@ const {gradeRange: {highGpa: jackhighGpa, lowGpa: jackLowGpa}} = Jack
                 </tr>
                 <tr>
                     <td>{Jazz.name}</td>
-                    <td>{jazzhighGpa}</td>
-                    <td>{jazzLowGpa}</td>
+                    <td>{jazzHighGpa}</td>
+                    <td>{JazzLowGpa}</td>
                 </tr>
-                <tr>
-                    <td>{Jada.name}</td>
-                    <td>{jadahighGpa}</td>
-                    <td>{jadaLowGpa}</td>
-                </tr>
-                <tr>
-                    <td>{Jace.name}</td>
-                    <td>{jacehighGpa}</td>
-                    <td>{jaceLowGpa}</td>
-                </tr>
-                <tr>
-                    <td>{Jack.name}</td>
-                    <td>{jackhighGpa}</td>
-                    <td>{jackLowGpa}</td>
-                </tr>
-            </table>
+              </table>
         </div>
     )
 }
